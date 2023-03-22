@@ -3,7 +3,10 @@ package org.oas.assignment;
 public class PathAnalyzer {
 
     /**
-     * given a path separated with slashes returns the length of the path and the longest path element
+     * given a path separated with slashes returns the number of elements contained in the path and the longest path element
+     * example:
+     * input -> hi/dear/human
+     * result -> PathAnalyzeResult{length: 3, longestElement: "human"}
      *
      * @param path input path
      * @return analyze result

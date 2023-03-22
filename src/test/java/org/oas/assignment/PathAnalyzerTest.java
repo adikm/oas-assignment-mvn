@@ -48,7 +48,7 @@ class PathAnalyzerTest {
     @Test
     public void testMalformedPath_shouldGetSanitized() {
         // given
-        String inputPath = "is/some one/a/teapot";
+        String inputPath = "is/some one/a/t e a p o t";
 
         // when
         PathAnalyzeResult result = uut.analyze(inputPath);
